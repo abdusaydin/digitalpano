@@ -4,3 +4,4 @@ body { margin:0; font-family:Arial; background:#0a1f44; color:white; }
 .slider { width:100%; height:80vh; display:flex; justify-content:center; align-items:center; }
 .slider img { width:90%; height:90%; object-fit:cover; }
 .ticker { position:fixed; bottom:0; width:100%; background:red; padding:10px; font-size:20px; }
+<link rel="stylesheet" href="style.css">
