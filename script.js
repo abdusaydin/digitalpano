@@ -4,7 +4,7 @@ document.getElementById("clock").innerText=now.toLocaleTimeString("tr-TR");
 }
 setInterval(updateClock,1000);
 
-let images=["img1.jpg","img2.jpg","img3.jpg"];
+let images=["img1.png"];
 let i=0;
 
 function changeSlide(){
