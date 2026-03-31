@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Admin Panel</title>
+</head>
+<body>
 
+<h2>Dijital Pano Yönetim</h2>
+
+<h3>Haftanın Sözü</h3>
+<input id="quoteInput" type="text">
+
+<h3>Duyuru</h3>
+<input id="tickerInput" type="text">
+
+<h3>Nöbetçi Öğretmenler</h3>
+<textarea id="teachersInput" placeholder="Her satıra 1 öğretmen"></textarea>
+
+<br><br>
+<button onclick="save()">Kaydet</button>
+
+<script>
+function save() {
+  let data = {
+    quote: document.getElementById("quoteInput").value,
+    ticker: document.getElementById("tickerInput").value,
+    teachers: document.getElementById("teachersInput").value.split("\n")
+  };
+
+  localStorage.setItem("panoData", JSON.stringify(data));
+  alert("Kaydedildi!");
+}
+</script>
+
+</body>
+</html>
