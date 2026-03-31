@@ -1,1 +1,58 @@
 
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0a1f44;
+  color: white;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #123c8c;
+}
+
+#date {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* ANA */
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+.main {
+  flex: 3;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome h1 {
+  font-size: 60px;
+}
+
+/* SAĞ PANEL */
+.sidebar {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.card {
+  background: #1b2e5c;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+/* ALT */
+.ticker {
+  background: #0d2c6c;
+  padding: 10px;
+}
