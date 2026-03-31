@@ -1,20 +1,53 @@
-iki<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
-<title>Okul Pano</title>
+<title>Dijital Pano</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- ÜST BAR -->
 <div class="header">
-<h1>NUSAYBİN ANADOLU LİSESİ</h1>
-<div id="clock"></div>
+  <div>
+    <h2>Nusaybin Anadolu Lisesi</h2>
+    <p>Bir Okuldan Daha Fazlası</p>
+  </div>
+  <div>
+    <span id="clock"></span> | <span id="date"></span>
+  </div>
 </div>
 
+<!-- ANA ALAN -->
+<div class="container">
 
+  <!-- SOL -->
+  <div class="main">
+    <div class="welcome">
+      <h1>HOŞGELDİNİZ</h1>
+      <p>2025-2026 Eğitim Öğretim Yılı</p>
+    </div>
+  </div>
+
+  <!-- SAĞ PANEL -->
+  <div class="sidebar">
+
+    <div class="card">
+      <h3>✨ Haftanın Sözü</h3>
+      <p id="quote">...</p>
+    </div>
+
+    <div class="card">
+      <h3>👨‍🏫 Nöbetçi Öğretmenler</h3>
+      <ul id="teachers"></ul>
+    </div>
+
+  </div>
+</div>
+
+<!-- DUYURU -->
 <div class="ticker">
-<marquee id="marquee">📢 Hoş Geldiniz</marquee>
+  <marquee id="tickerText">Duyurular...</marquee>
 </div>
 
 <script src="script.js"></script>
